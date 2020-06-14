@@ -1,0 +1,272 @@
+/*========== Start Only for dark version  ==========*/
+.yoo-theme-options .yoo-theme-options-switch,
+.yoo-theme-options-settings {
+  box-shadow: 2px 5px 10px 2px rgba(0, 0, 0, 0.04);
+}
+
+.yoo-sidebar-nav-list li.active>a,
+.yoo-sidebar-nav-list li.active>a .yoo-sidebar-link-icon,
+.yoo-btn.yoo-style3,
+.yoo-sidebar-nav-list li.active>a:hover,
+.yoo-btn.yoo-add-btn {
+  color: $base-color1;
+}
+
+.yoo-option-switch span {
+  background-color: $base-color1;
+}
+
+.yoo-live-chat-wrap {
+  box-shadow: 0px 4px 36px 4px rgba(255, 255, 255, 0.05);
+}
+
+// Dark Logo Background
+.yoo-main-header-left.yoo-reverse-color {
+  background-color: #fff;
+  border-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.yoo-sidebarheader-toggle.yoo-reverse-color div {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+// Dark Header
+.yoo-header.yoo-style1.yoo-reverse-color .yoo-main-header .yoo-main-header-left {
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.yoo-header.yoo-reverse-color {
+  color: rgba(0, 0, 0, 0.7);
+  background-color: #fff;
+
+  .yoo-megamenu-title,
+  .yoo-dropdown.yoo-style2 .yoo-subdropdown-title,
+  .yoo-dropdown.yoo-style3 .yoo-subdropdown-title,
+  .yoo-dropdown.yoo-style4 .yoo-subdropdown-title,
+  .yoo-dropdown.yoo-style5 .yoo-subdropdown-title,
+  .yoo-dropdown.yoo-style6 .yoo-subdropdown-title,
+  .yoo-dropdown.yoo-style7 .yoo-subdropdown-title,
+  .yoo-nofify-title,
+  .yoo-nofify-list.yoo-style1 .yoo-nofify-text .yoo-nofify-text-head,
+  .yoo-notify-dropdown .yoo-btn.yoo-style2:hover {
+    color: rgba(0, 0, 0, 0.9);
+  }
+
+  .yoo-nav-list>li>a,
+  .yoo-nav-list ul a,
+  .yoo-profile-nav .yoo-dropdown a,
+  .yoo-search.yoo-style1 .yoo-search-input,
+  .yoo-profile-nav.yoo-style1 .yoo-profile-nav-text h4,
+  .yoo-nofify-list.yoo-style1 li a:hover,
+  .yoo-btn.yoo-style2,
+  .yoo-nofify-list.yoo-style2 .yoo-nofify-text h3,
+  .yoo-nofify-list.yoo-style1 .yoo-nofify-text span {
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  .yoo-nav-list>li>a>i,
+  .yoo-ex-nav-btn,
+  .yoo-profile-nav.yoo-style1 .yoo-profile-nav-text span,
+  .yoo-desc-cat,
+  .yoo-nofify-list.yoo-style1 .yoo-nofify-text .yoo-notify-time,
+  .yoo-dropdown.yoo-style1 li i {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  .yoo-desktop-nav .yoo-nav-list>li:hover>a,
+  .yoo-desktop-nav .yoo-nav-list ul a:hover,
+  .yoo-desktop-nav .yoo-nav-list .yoo-sub-megamenu-list li.active a {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+
+  .yoo-desktop-nav .yoo-has-children .yoo-megamenu-in,
+  .yoo-desktop-nav .yoo-megamenu-col,
+  .yoo-profile-nav.yoo-style1,
+  &.yoo-style1 .yoo-main-header .yoo-main-header-left,
+  &.yoo-style1 .yoo-main-header .yoo-main-header-right,
+  .yoo-main-header-left,
+  .yoo-nofify-title,
+  .yoo-nofify-list.yoo-style2 a:hover,
+  .yoo-nofify-list.yoo-style1 li,
+  .yoo-dropdown,
+  .yoo-dropdown.yoo-style1 .yoo-dropdown-cta,
+  .yoo-dropdown.yoo-style2 .yoo-dropdown-cta,
+  .yoo-dropdown.yoo-style3 .yoo-dropdown-cta,
+  .yoo-dropdown.yoo-style4 .yoo-dropdown-cta,
+  .yoo-search.yoo-style1 .yoo-search-input,
+  hr {
+    border-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .yoo-online-status {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .yoo-online-status.yoo-live {
+    background-color: $accent-color3;
+  }
+
+  .yoo-nofify-list.yoo-style1 li a:hover,
+  .yoo-notify-dropdown .yoo-btn.yoo-style2:hover,
+  .yoo-nofify-list.yoo-style2 a:hover {
+    background-color: rgba(0, 0, 0, 0.02);
+  }
+
+  .yoo-desktop-nav .yoo-has-children .yoo-megamenu-in,
+  .yoo-dropdown,
+  .yoo-search.yoo-style1 .yoo-search-input,
+  .yoo-nofify-list.yoo-style1 {
+    background-color: #fff;
+  }
+
+  input::-webkit-input-placeholder,
+  textarea::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  input::-moz-placeholder,
+  textarea::-moz-placeholder {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  input:-ms-input-placeholder,
+  textarea:-ms-input-placeholder {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  input:-moz-placeholder,
+  textarea:-moz-placeholder {
+    color: rgba(0, 0, 0, 0.4);
+  }
+}
+
+.yoo-header.yoo-reverse-color+.yoo-sidebarheader-toggle div {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+// End Dark Header
+
+// Dark Sidebar
+.yoo-sidebarheader.yoo-reverse-color {
+  color: rgba(0, 0, 0, 0.7);
+  background-color: #fff;
+  border-color: rgba(0, 0, 0, 0.1);
+
+  &.yoo-white-bg .yoo-sidebarheader-in {
+    background-color: #fff;
+  }
+
+  .yoo-sidebarheader-in {
+    background-color: #fff;
+  }
+
+  .yoo-sidebar-nav-list,
+  .yoo-sidebar-nav-list a,
+  &.yoo-messenger-sidebar .yoo-user-list .yoo-user-name,
+  .yoo-user.yoo-style2 .yoo-user-name,
+  .yoo-user-list .yoo-user-name {
+    color: rgba(0, 0, 0, 0.9);
+  }
+
+  .yoo-user.yoo-style1:hover {
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  .yoo-sidebar-nav-list .yoo-sidebar-link-icon,
+  .yoo-user-list .yoo-user-time,
+  .yoo-search.yoo-style2 button,
+  .yoo-user-heading.yoo-style1 .yoo-user-title,
+  .yoo-sidebar-nav-title {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  .yoo-search.yoo-style2 input {
+    border-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .yoo-sidebar-nav-list a:hover,
+  .yoo-sidebar-nav-list li.active>a,
+  .yoo-user-list .yoo-user.yoo-style1:hover,
+  .yoo-user-list .active .yoo-user.yoo-style1 {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+
+  .yoo-sidebar-nav-list li.yoo-sidebar-has-children .yoo-dropdown-arrow {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid rgba(0, 0, 0, 0.4);
+  }
+
+  .yoo-sidebar-nav-list li.active>a .yoo-sidebar-link-icon,
+  .yoo-sidebar-nav-list li.active>a,
+  .yoo-sidebar-nav-list li.active>a:hover {
+    color: $accent-color1;
+  }
+
+  input::-webkit-input-placeholder,
+  textarea::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  input::-moz-placeholder,
+  textarea::-moz-placeholder {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  input:-ms-input-placeholder,
+  textarea:-ms-input-placeholder {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  input:-moz-placeholder,
+  textarea:-moz-placeholder {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  .yoo-search.yoo-style2 {
+    background-color: transparent;
+  }
+}
+
+// End Dark Sidebar
+.yoo-light-logo {
+  display: none;
+}
+
+.yoo-dark-logo {
+  display: block;
+}
+
+.yoo-reverse-color {
+  .yoo-light-logo {
+    display: block;
+  }
+
+  .yoo-dark-logo {
+    display: none;
+  }
+}
+
+table.dataTable.stripe tbody tr.odd,
+table.dataTable.display tbody tr.odd {
+  background-color: $base-color5;
+}
+
+.yoo-error-wrap.yoo-style2.yoo-type1 .yoo-error-title {
+  color: #222;
+}
+
+.yoo-error-wrap.yoo-style2.yoo-type1 .yoo-error-desc {
+  color: rgba(34, 34, 34, 0.7);
+}
+
+.yoo-error-wrap.yoo-style2.yoo-type2 .yoo-error-title {
+  color: #fff;
+}
+
+.yoo-error-wrap.yoo-style2.yoo-type2 .yoo-error-desc {
+  color: #fff;
+  opacity: 0.7;
+}
+
+/*========== End Only for dark version  ==========*/

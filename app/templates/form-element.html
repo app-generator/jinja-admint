@@ -1,0 +1,626 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} Form Elements {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+  <div class="yoo-content yoo-style1">
+    <div class="yoo-padd-lr-30 yoo-uikits-heading">
+      <h2 class="yoo-uikits-title">Accordion</h2>
+      <ul class="yoo-breadcamb yoo-style1 yoo-mp0">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">UI Kits</a></li>
+        <li>Form Elements</li>
+      </ul>
+    </div>
+    <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="yoo-card yoo-style1">
+            <div class="yoo-card-heading">
+              <div class="yoo-card-heading-left">
+                <h2 class="yoo-card-title">Form controls</h2>
+              </div>
+            </div>
+            <div class="yoo-card-body">
+              <div class="yoo-padd-lr-30 yoo-alert-wrap">
+                <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                <form>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@example.com">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Readonly input</label>
+                    <input class="form-control" type="text" placeholder="Readonly input here…" readonly>
+                  </div>
+                  <fieldset disabled>
+                    <div class="form-group">
+                      <label for="disabledTextInput">Disabled input</label>
+                      <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+                    </div>
+                  </fieldset>
+                  <div class="form-group">
+                    <label for="exampleFormControlSelect1">Example select</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                  </div>
+                  <fieldset disabled>
+                    <div class="form-group">
+                      <label for="disabledSelect">Disabled select menu</label>
+                      <select id="disabledSelect" class="form-control">
+                        <option>Disabled select</option>
+                      </select>
+                    </div>
+                  </fieldset>
+                  <div class="form-group">
+                    <label for="exampleFormControlSelect2">Example multiple select</label>
+                    <select multiple class="form-control" id="exampleFormControlSelect2">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                </form>
+                <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+              </div>
+            </div>
+          </div>
+          <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+          <div class="yoo-card yoo-style1">
+            <div class="yoo-card-heading">
+              <div class="yoo-card-heading-left">
+                <h2 class="yoo-card-title">Form grid</h2>
+              </div>
+            </div>
+            <div class="yoo-card-body">
+              <div class="yoo-padd-lr-30 yoo-alert-wrap">
+                <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                <form>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputEmail4">Email</label>
+                      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="inputPassword4">Password</label>
+                      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputAddress">Address</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                  </div>
+                  <div class="form-group">
+                    <label for="inputAddress2">Address 2</label>
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputCity">City</label>
+                      <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="form-group col-md-4">
+                      <label for="inputState">State</label>
+                      <select id="inputState" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-md-2">
+                      <label for="inputZip">Zip</label>
+                      <input type="text" class="form-control" id="inputZip">
+                    </div>
+                  </div>
+                </form>
+                <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+              </div>
+            </div>
+          </div>
+          <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+          <div class="yoo-card yoo-style1">
+            <div class="yoo-card-heading">
+              <div class="yoo-card-heading-left">
+                <h2 class="yoo-card-title">Horizontal form</h2>
+              </div>
+            </div>
+            <div class="yoo-card-body">
+              <div class="yoo-padd-lr-30 yoo-alert-wrap">
+                <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+                <form>
+                  <div class="form-group row">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                    <div class="col-sm-10">
+                      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                    </div>
+                  </div>
+                  <fieldset class="form-group">
+                    <div class="row">
+                      <span class="col-form-label col-sm-2 pt-0">Radios</span>
+                      <div class="col-sm-10">
+                        <div class="custom-control custom-radio">
+                          <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                          <label class="custom-control-label" for="customRadio1">First radio</label>
+                        </div>
+                        <div class="yoo-height-b5 yoo-height-lg-b5"></div>
+                        <div class="custom-control custom-radio">
+                          <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                          <label class="custom-control-label" for="customRadio2">Second radio</label>
+                        </div>
+                        <div class="yoo-height-b5 yoo-height-lg-b5"></div>
+                        <div class="custom-control custom-radio">
+                          <input type="radio" id="customRadioDisabled" name="radioDisabled" class="custom-control-input" disabled>
+                          <label class="custom-control-label" for="customRadioDisabled">Disabled radio</label>
+                        </div>
+                      </div>
+                    </div>
+                  </fieldset>
+                  <div class="form-group row">
+                    <div class="col-sm-2">Checkbox</div>
+                    <div class="col-sm-10">
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                        <label class="custom-control-label" for="customCheck1">Example checkbox</label>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+                <div class="yoo-height-b5 yoo-height-lg-b5"></div>
+              </div>
+            </div>
+          </div>
+          <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+          <div class="yoo-card yoo-style1">
+            <div class="yoo-card-heading">
+              <div class="yoo-card-heading-left">
+                <h2 class="yoo-card-title">File Input</h2>
+              </div>
+            </div>
+            <div class="yoo-card-body">
+              <div class="yoo-padd-lr-30 yoo-alert-wrap">
+                <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                <form>
+                  <div class="form-group yoo-cs-input-btn">
+                    <label for="exampleFormControlFile1">Example file input</label>
+                    <span>Chose File</span>
+                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                  </div>
+                </form>
+                <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+              </div>
+            </div>
+          </div>
+          <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+          <div class="yoo-card yoo-style1">
+            <div class="yoo-card-heading">
+              <div class="yoo-card-heading-left">
+                <h2 class="yoo-card-title">Checkboxes</h2>
+              </div>
+            </div>
+            <div class="yoo-card-body">
+              <div class="yoo-padd-lr-30 yoo-alert-wrap">
+                <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                <form>
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck2">
+                    <label class="custom-control-label" for="customCheck2">Check this custom checkbox</label>
+                  </div>
+                  <div class="yoo-height-b5 yoo-height-lg-b5"></div>
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheckDisabled2" disabled>
+                    <label class="custom-control-label" for="customCheckDisabled2">Check this custom checkbox</label>
+                  </div>
+                </form>
+                <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+              </div>
+            </div>
+          </div>
+          <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+          <div class="yoo-card yoo-style1">
+            <div class="yoo-card-heading">
+              <div class="yoo-card-heading-left">
+                <h2 class="yoo-card-title">Radios</h2>
+              </div>
+            </div>
+            <div class="yoo-card-body">
+              <div class="yoo-padd-lr-30 yoo-alert-wrap">
+                <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                <div class="custom-control custom-radio">
+                  <input type="radio" id="customRadio5" name="customRadio" class="custom-control-input">
+                  <label class="custom-control-label" for="customRadio5">Toggle this custom radio</label>
+                </div>
+                <div class="yoo-height-b5 yoo-height-lg-b5"></div>
+                <div class="custom-control custom-radio">
+                  <input type="radio" id="customRadio6" name="customRadio" class="custom-control-input">
+                  <label class="custom-control-label" for="customRadio6">Or toggle this other custom radio</label>
+                </div>
+                <div class="yoo-height-b5 yoo-height-lg-b5"></div>
+                <div class="custom-control custom-radio">
+                   <input type="radio" name="radioDisabled"  class="custom-control-input" disabled>
+                  <label class="custom-control-label" >Disabled radio</label>
+                </div>
+                <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+              </div>
+            </div>
+          </div>
+          <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+          <div class="yoo-card yoo-style1">
+            <div class="yoo-card-heading">
+              <div class="yoo-card-heading-left">
+                <h2 class="yoo-card-title">Radios Inline</h2>
+              </div>
+            </div>
+            <div class="yoo-card-body">
+              <div class="yoo-padd-lr-30 yoo-alert-wrap">
+                <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input type="radio" id="customRadioInline10" name="customRadioInline10" class="custom-control-input">
+                  <label class="custom-control-label" for="customRadioInline10">Toggle this custom radio</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input type="radio" id="customRadioInline22" name="customRadioInline12" class="custom-control-input">
+                  <label class="custom-control-label" for="customRadioInline22">Or toggle this other custom radio</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input type="radio" id="radio3" name="radioDisabled6"  class="custom-control-input" disabled>
+                  <label class="custom-control-label" >Disabled radio</label>
+                </div>
+                <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+              </div>
+            </div>
+          </div>
+        </div><!-- .col -->
+        <div class="col-lg-6">
+          <div class="yoo-card yoo-style1">
+            <div class="yoo-card-heading">
+              <div class="yoo-card-heading-left">
+                <h2 class="yoo-card-title">Input Size</h2>
+              </div>
+            </div>
+            <div class="yoo-card-body">
+              <div class="yoo-padd-lr-30 yoo-alert-wrap">
+                <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+                <form>
+                  <div class="form-group">
+                    <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg">
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control" type="text" placeholder="Default input">
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control form-control-sm" type="text" placeholder=".form-control-sm">
+                  </div>
+                </form>
+                <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+              </div>
+            </div>
+          </div>
+          <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+          <div class="yoo-card yoo-style1">
+            <div class="yoo-card-heading">
+              <div class="yoo-card-heading-left">
+                <h2 class="yoo-card-title">Select Size</h2>
+              </div>
+            </div>
+            <div class="yoo-card-body">
+              <div class="yoo-padd-lr-30 yoo-alert-wrap">
+                <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+                <form>
+                  <div class="form-group">
+                    <select class="form-control form-control-lg">
+                      <option>Large select</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <select class="form-control form-control-lg">
+                      <option>Large select</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <select class="form-control form-control-sm">
+                      <option>Small select</option>
+                    </select>
+                  </div>
+                </form>
+                <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+              </div>
+            </div>
+          </div>
+          <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+          <div class="yoo-card yoo-style1">
+            <div class="yoo-card-heading">
+              <div class="yoo-card-heading-left">
+                <h2 class="yoo-card-title">Select Size</h2>
+              </div>
+            </div>
+            <div class="yoo-card-body">
+              <div class="yoo-padd-lr-30 yoo-alert-wrap">
+                <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+                <form>
+                  <div class="form-group row">
+                    <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Email</label>
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="col-form-label-lg">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="colFormLabel" class="col-sm-2 col-form-label">Email</label>
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control" id="colFormLabel" placeholder="col-form-label">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Email</label>
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control form-control-sm" id="colFormLabelSm" placeholder="col-form-label-sm">
+                    </div>
+                  </div>
+                </form>
+                <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+          <div class="yoo-card yoo-style1">
+            <div class="yoo-card-heading">
+              <div class="yoo-card-heading-left">
+                <h2 class="yoo-card-title">Input Group</h2>
+              </div>
+            </div>
+            <div class="yoo-card-body">
+              <div class="yoo-padd-lr-30 yoo-alert-wrap">
+                <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                  </div>
+                  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                <div class="yoo-height-b20 yoo-height-lg-b20"></div>
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                  <div class="input-group-append">
+                    <span class="input-group-text" id="basic-addon2">@example.com</span>
+                  </div>
+                </div>
+                <div class="yoo-height-b20 yoo-height-lg-b20"></div>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+                  </div>
+                  <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                </div>
+                <div class="yoo-height-b20 yoo-height-lg-b20"></div>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">$</span>
+                  </div>
+                  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                  <div class="input-group-append">
+                    <span class="input-group-text">.00</span>
+                  </div>
+                </div>
+                <div class="yoo-height-b20 yoo-height-lg-b20"></div>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">$</span>
+                    <span class="input-group-text">0.00</span>
+                  </div>
+                  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                </div>
+                <div class="yoo-height-b20 yoo-height-lg-b20"></div>
+                <div class="input-group">
+                  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                  <div class="input-group-append">
+                    <span class="input-group-text">$</span>
+                    <span class="input-group-text">0.00</span>
+                  </div>
+                </div>
+                <div class="yoo-height-b20 yoo-height-lg-b20"></div>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">With textarea</span>
+                  </div>
+                  <textarea class="form-control" aria-label="With textarea"></textarea>
+                </div>
+                <div class="yoo-height-b20 yoo-height-lg-b20"></div>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">
+                      <input type="checkbox" aria-label="Checkbox for following text input">
+                    </div>
+                  </div>
+                  <input type="text" class="form-control" aria-label="Text input with checkbox">
+                </div>
+                <div class="yoo-height-b20 yoo-height-lg-b20"></div>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">
+                    <input type="radio" aria-label="Radio button for following text input">
+                    </div>
+                  </div>
+                  <input type="text" class="form-control" aria-label="Text input with radio button">
+                </div>
+                <div class="yoo-height-b20 yoo-height-lg-b20"></div>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" >First and last name</span>
+                  </div>
+                  <input type="text" class="form-control">
+                  <input type="text" class="form-control">
+                </div>
+                <div class="yoo-height-b20 yoo-height-lg-b20"></div>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <button class="btn btn-primary" type="button">Button</button>
+                  </div>
+                  <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+                </div>
+                <div class="yoo-height-b20 yoo-height-lg-b20"></div>
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                  <div class="input-group-append">
+                    <button class="btn btn-primary" type="button">Button</button>
+                  </div>
+                </div>
+                <div class="yoo-height-b20 yoo-height-lg-b20"></div>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <button type="button" class="btn btn-primary">Action</button>
+                    <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                      <div role="separator" class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                  </div>
+                  <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
+                </div>
+                <div class="yoo-height-b20 yoo-height-lg-b20"></div>
+                <div class="input-group">
+                  <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
+                  <div class="input-group-append">
+                    <button type="button" class="btn btn-primary">Action</button>
+                    <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                      <div role="separator" class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+              </div>
+            </div>
+          </div>
+          <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+          <div class="yoo-card yoo-style1">
+            <div class="yoo-card-heading">
+              <div class="yoo-card-heading-left">
+                <h2 class="yoo-card-title">Server Side</h2>
+              </div>
+            </div>
+            <div class="yoo-card-body">
+              <div class="yoo-padd-lr-30 yoo-alert-wrap">
+                <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+                <form>
+                  <div class="form-row">
+                    <div class="col-md-4 mb-3">
+                      <label for="validationServer01">First name</label>
+                      <input type="text" class="form-control is-valid" id="validationServer01" placeholder="First name" value="Mark" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                      <label for="validationServer02">Last name</label>
+                      <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Last name" value="Otto" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                      <label for="validationServerUsername">Username</label>
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                        </div>
+                        <input type="text" class="form-control is-invalid" id="validationServerUsername" placeholder="Username" aria-describedby="inputGroupPrepend3" required>
+                        <div class="invalid-feedback">
+                          Please choose a username.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                      <label for="validationServer03">City</label>
+                      <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="City" required>
+                      <div class="invalid-feedback">
+                        Please provide a valid city.
+                      </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                      <label for="validationServer04">State</label>
+                      <input type="text" class="form-control is-invalid" id="validationServer04" placeholder="State" required>
+                      <div class="invalid-feedback">
+                        Please provide a valid state.
+                      </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                      <label for="validationServer05">Zip</label>
+                      <input type="text" class="form-control is-invalid" id="validationServer05" placeholder="Zip" required>
+                      <div class="invalid-feedback">
+                        Please provide a valid zip.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="form-check">
+                      <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+                      <label class="form-check-label" for="invalidCheck3">
+                        Agree to terms and conditions
+                      </label>
+                      <div class="invalid-feedback">
+                        You must agree before submitting.
+                      </div>
+                    </div>
+                  </div>
+                  <button class="btn btn-primary" type="submit">Submit form</button>
+                </form>
+                <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+              </div>
+            </div>
+          </div>
+        </div><!-- .col -->
+      </div>
+    </div>
+    <div class="yoo-height-b60 yoo-height-lg-b60"></div>
+
+    {% include 'includes/footer.html' %}
+
+  </div>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}
+
+  <script src="assets/js/jquery.nestable.js"></script>
+
+{% endblock javascripts %}  

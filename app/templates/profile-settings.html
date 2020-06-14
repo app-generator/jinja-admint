@@ -1,0 +1,165 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} Profile Settings {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+  <div class="yoo-content yoo-style1">
+    <div class="yoo-padd-lr-30 yoo-uikits-heading">
+      <h2 class="yoo-uikits-title">Profile Settings</h2>
+      <ul class="yoo-breadcamb yoo-style1 yoo-mp0">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Profile</a></li>
+        <li>Profile Settings</li>
+      </ul>
+    </div>
+    <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="yoo-card yoo-style1">
+            <div class="yoo-fade-tabs yoo-tabs yoo-style3">
+              <div class="yoo-profile-setting-container">
+                    <div class="yoo-height-b45 yoo-height-lg-b45"></div>
+                    <div class="yoo-profile-setting-heading">
+                      <h2 class="yoo-profile-setting-title">Profile Settingss</h2>
+                      <div class="yoo-profile-setting-subtitle">Add all your details and fill-up correctly. You can change settings later, too.</div>
+                    </div>
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-form-field-wrap yoo-style1">
+                      <label class="yoo-form-field-label">Profile Photo</label>
+                      <div class="yoo-form-field">
+                        <div class="yoo-setting-profile-pic">
+                          <img src="/static/assets/img/profile-pic.png" alt="">
+                          <a href="#" class="yoo-profile-pic-edit-btn"><i class="material-icons-outlined">edit</i></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                    <div class="yoo-form-field-wrap yoo-style1">
+                      <label class="yoo-form-field-label">Username</label>
+                      <div class="yoo-form-field yoo-color1 yoo-with-left-text">
+                        <span class="yoo-form-field-left-text">@</span>
+                        <input type="text" placeholder="Enter Username" value="ThemeBubble">
+                      </div>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                    <div class="yoo-form-field-wrap yoo-style1">
+                      <label class="yoo-form-field-label">First Name</label>
+                      <div class="yoo-form-field yoo-color1">
+                        <input type="text" placeholder="Enter First Name" value="John">
+                      </div>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                    <div class="yoo-form-field-wrap yoo-style1">
+                      <label class="yoo-form-field-label">Last Name</label>
+                      <div class="yoo-form-field yoo-color1">
+                        <input type="text" placeholder="Enter Last Name">
+                      </div>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                    <div class="yoo-form-field-wrap yoo-style1">
+                      <label class="yoo-form-field-label">Email</label>
+                      <div class="yoo-form-field yoo-color1">
+                        <input type="email" placeholder="Email" value="johndoe@gmail.com">
+                        <div class="yoo-form-field-note">Email will not be publicly displayed. </div>
+                      </div>
+                    </div>
+                    <div class="yoo-height-b20 yoo-height-lg-b20"></div>
+                    <div class="yoo-form-field-wrap yoo-style1">
+                      <label class="yoo-form-field-label">Country</label>
+                      <div class="yoo-form-field yoo-color1">
+                        <div class="yoo-custom-select-wrap yoo-style2">
+                          <select name="#" class="yoo-custom-select">
+                            <option value="classic-fit1">United Kingdom</option>
+                            <option value="classic-fit2">India</option>
+                            <option value="classic-fit3">Austrilia</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                    <div class="yoo-form-field-wrap yoo-style1">
+                      <label class="yoo-form-field-label">Time Zone</label>
+                      <div class="yoo-form-field yoo-color1">
+                        <div class="yoo-custom-select-wrap yoo-style2">
+                          <select name="#" class="yoo-custom-select">
+                            <option value="classic-fit1">GMT-7 (USA & Canada)</option>
+                            <option value="classic-fit2">GMT-6 (USA & Canada)</option>
+                            <option value="classic-fit3">GMT-5 (USA & Canada)</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                    <div class="yoo-form-field-wrap yoo-style1">
+                      <label class="yoo-form-field-label">Website</label>
+                      <div class="yoo-form-field yoo-color1 yoo-with-right-text">
+                        <span class="yoo-form-field-right-text">.com</span>
+                        <input type="email" placeholder="Enter website URL">
+                      </div>
+                    </div>
+                    <div class="yoo-height-b60 yoo-height-lg-b60"></div>
+                  </div><!-- .yoo-profile-setting-container -->
+                  <hr>
+                  <div class="yoo-profile-setting-container">
+                    <div class="yoo-height-b55 yoo-height-lg-b55"></div>
+                    <div class="yoo-profile-setting-heading">
+                      <h2 class="yoo-profile-setting-title">Policy Agreements</h2>
+                      <div class="yoo-profile-setting-subtitle">Add all your details and fill-up correctly. You can change settings later, too.</div>
+                    </div>
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-form-field-wrap yoo-style1">
+                      <label class="yoo-form-field-label">Password Reset Verification</label>
+                      <div class="yoo-form-field yoo-color1">
+                        <div class="yoo-checkbox-wrap yoo-style1 yoo-color1">
+                          <span class="yoo-checkbox yoo-style3 yoo-color2">
+                            <input type="checkbox">
+                            <span class="yoo-checkbox-icon"><i class="material-icons">done</i></span>
+                          </span>
+                          <div class="yoo-checkbox-text yoo-style1">Require personal information to reset your password</div>
+                        </div>
+                        <div class="yoo-form-field-note">For added security, this requires you to confirm your email or phone number while resetting your password.</div>
+                      </div>
+                    </div>
+                    <div class="yoo-height-b20 yoo-height-lg-b20"></div>
+                    <div class="yoo-form-field-wrap yoo-style1">
+                      <label class="yoo-form-field-label">Timeline</label>
+                      <div class="yoo-form-field yoo-color1">
+                        <div class="yoo-checkbox-wrap yoo-style1 yoo-color1">
+                          <span class="yoo-checkbox yoo-style3 yoo-color2">
+                            <input type="checkbox">
+                            <span class="yoo-checkbox-icon"><i class="material-icons">done</i></span>
+                          </span>
+                          <div class="yoo-checkbox-text yoo-style1">Show the best contents first</div>
+                        </div>
+                        <div class="yoo-form-field-note">Tweets you are likely to care about most will show up first in your timeline.</div>
+                      </div>
+                    </div>
+                    <div class="yoo-height-b55 yoo-height-lg-b55"></div>
+                  </div><!-- .yoo-profile-setting-container -->
+                  <hr>
+                  <div class="yoo-height-b20 yoo-height-lg-b20"></div>
+                  <div class="yoo-profile-btn-group yoo-style1">
+                    <a href="#" class="yoo-profile-btn yoo-style1 yoo-color1">Update Now</a>
+                    <a href="#" class="yoo-profile-btn yoo-style1 yoo-color2">Next</a>
+                  </div>
+                  <div class="yoo-height-b20 yoo-height-lg-b20"></div>
+            </div><!-- .yoo-tabs -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="yoo-height-b60 yoo-height-lg-b60"></div>
+
+    {% include 'includes/footer.html' %}
+
+  </div>
+  
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}

@@ -1,0 +1,73 @@
+/*========== Start Task List  ==========*/
+.yoo-task-list.yoo-style1 {
+  &>li {
+    display: flex;
+    position: relative;
+
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
+
+    &:hover .yoo-button-group {
+      opacity: 1;
+    }
+  }
+
+  .yoo-task-checkmark {
+    margin-right: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+  }
+
+  .yoo-task-icon {
+    margin-right: 12px;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .yoo-task-text {
+    h3 {
+      font-size: 14px;
+      margin-bottom: 0;
+      line-height: 1.6em;
+    }
+  }
+
+  .yoo-button-group {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+
+  .yoo-ativity-time {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: $base-color3;
+    margin-bottom: -3px;
+
+    i {
+      margin-right: 5px;
+    }
+  }
+}
+@media screen and (max-width: 575px) {
+  .yoo-cta.yoo-style2 {
+    padding: 0;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .yoo-padd-lr-30.yoo-card-content-height1 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+}
+/*========== End Task List  ==========*/

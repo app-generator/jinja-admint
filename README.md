@@ -1,32 +1,32 @@
-# [Template Jinja2 Theme](https://theme-jinja2.appseed.us/)
+# [Jinja2 Theme - AdminT (Free Version)](https://theme-jinja2-admint.appseed.us/)
 
 > Template Theme provided by [AppSeed](https://appseed.us) - Features:
 
-- UI Kit: **Neumorphism UI** (Free Version) by **Themesberg**
+- UI Kit: **AdminT Dashboard** (Free Version) by **YooKits**
 - Render Engine: Flask / [Jinja2](https://jinja.palletsprojects.com/)
-- **[MIT License](https://github.com/app-generator/license-mit)**
+- **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**
 - Free support via **Github** issues tracker
 - Paid 24/7 Live Support via [Discord](https://discord.gg/fZC6hup).
 
 > Links
 
-- [Template Jinja2 Theme](https://theme-jinja2.appseed.us/) - LIVE Demo
+- [Jinja2 Theme - AdminT (Free Version)](https://theme-jinja2-admint.appseed.us/) - LIVE Demo
 
 <br />
 
-## UI Kit - [Neumorphism UI](https://themesberg.com/product/ui-kits/neumorphism-ui-kit-bootstrap)
+## UI Kit - [AdminT (Free Version)](https://yookits.com/product/admint-bootstrap-admin-template/?ref=appseed)
 
-*Vendor Notes* - Start developing neumorphism (aka. neomorphism) inspired layouts, web apps and pages with this free UI Kit. It features over 200 individual components and 5 example pages. Neumorphism UI makes use of the original neumorphism design specs.
-All components are perfectly in compliance with the neumorphism design trend making use of the specific shadow and coloring attributes. Neumorphism UI also comes with the shadow inset style add-on. Only some neumorphic components that are included are timelines, profile cards, pricing cards, call to action sections and many more.
+*Vendor Notes* - **[AdminT](https://yookits.com/product/admint-bootstrap-admin-template/?ref=appseed)** is the swiss army knife of the dashboard templates. 
+You can create applications of any kind with it. We carefully crafted every component based on a cohesive design system. Your app will look pro with Admint magic. It’s completely free & open-source. Grab it today and build beautiful apps.
 
 > Links
 
-- [Neumorphism UI](https://themesberg.com/product/ui-kits/neumorphism-ui-kit-bootstrap) - product page
-- [Neumorphism UI Docs](https://themesberg.com/docs/neumorphism-ui/getting-started/quick-start/)
+- [AdminT (Free Version)](https://yookits.com/product/admint-bootstrap-admin-template/?ref=appseed) - product page
+- [AdminT](https://github.com/yookits/admint/) - Html version source code (Github)
 
 <br />
 
-![Template Jinja2 Theme - Template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/theme-jinja2/master/media/theme-jinja2-screen.png)
+![Jinja2 Theme - AdminT (Free Version) - Template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/theme-jinja2-admint/master/media/theme-jinja2-admint-screen.png)
 
 <br />
 
@@ -34,8 +34,8 @@ All components are perfectly in compliance with the neumorphism design trend mak
 
 ```bash
 $ # Clone the sources
-$ git clone https://github.com/app-generator/theme-jinja2.git
-$ cd theme-jinja2
+$ git clone https://github.com/app-generator/theme-jinja2-admint.git
+$ cd theme-jinja2-admint
 $
 $ # Virtualenv modules installation (Unix based systems)
 $ virtualenv env
@@ -124,8 +124,8 @@ The steps to start the template using Docker:
 > Get the code
 
 ```bash
-$ git clone https://github.com/app-generator/theme-jinja2.git
-$ cd theme-jinja2
+$ git clone https://github.com/app-generator/theme-jinja2-admint.git
+$ cd theme-jinja2-admint
 ```
 
 > Start the app in Docker
@@ -187,4 +187,4 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 <br />
 
 ---
-[Template Jinja2 Theme](https://theme-jinja2.appseed.us/) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
+[Jinja2 Theme - AdminT (Free Version)](https://theme-jinja2-admint.appseed.us/) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).

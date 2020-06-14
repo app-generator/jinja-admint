@@ -1,0 +1,81 @@
+/*========== Start ProgressBar  ==========*/
+.yoo-progress-lavel {
+  &.yoo-style1 {
+    display: flex;
+    align-items: center;
+    i {
+      font-size: 18px;
+    }
+  }
+  &.yoo-style2 {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 2px;
+    padding: 0 6px 1px 2px;
+    i {
+      font-size: 18px;
+    }
+  }
+}
+
+.yoo-progressbar-wrap.yoo-style1 {
+  .yoo-single-progress:not(:last-child) {
+    margin-bottom: 15px;
+  }
+
+  .yoo-progressbar {
+    width: 100%;
+    overflow: hidden;
+    height: 5px;
+    background-color: $base-color4;
+    border-radius: 1.6em;
+  }
+
+  .yoo-progressbar-in {
+    height: 100%;
+    background-color: $accent-color1;
+    border-radius: 1.6em  0 0 1.6em;
+  }
+
+  .yoo-progress-heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+  }
+
+  .yoo-progress-title {
+    font-size: 13px;
+    color: $base-color2;
+    font-weight: 400;
+    margin-bottom: 0;
+    line-height: 1.3em;
+    margin-right: 20px;
+  }
+
+  .yoo-progress-percentage {
+    font-size: 13px;
+    color: $base-color3;
+    line-height: 1.3em;
+  }
+  &.yoo-color1 {
+    .yoo-progressbar-in {
+      background-color: $accent-color4;
+    }
+  }
+  &.yoo-color2 {
+    .yoo-progressbar-in {
+      background-color: $accent-color3;
+    }
+  }
+  &.yoo-color3 {
+    .yoo-progressbar-in {
+      background-color: $accent-color2;
+    }
+  }
+  &.yoo-color4 {
+    .yoo-progressbar-in {
+      background-color: $accent-color1;
+    }
+  }
+}
+/*========== End ProgressBar  ==========*/

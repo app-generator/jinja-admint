@@ -1,0 +1,345 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} UI Docs {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+  <div class="yoo-content yoo-style1">
+    <div class="container">
+      <div class="yoo-height-b100 yoo-height-lg-b60"></div>
+      <div class="yoo-doc-wrap">
+        <div class="yoo-doc-left">
+          <div class="yoo-doc-nav">
+            <ul class="yoo-doc-nav-list yoo-onepage-nav">
+              <li><a href="#int" class="active">Introduction</a></li>
+              <li><a href="#fs">Files Structure</a></li>
+              <li><a href="#sty">Stylesheets</a></li>
+              <li><a href="#chc">CSS Helper Classes</a></li>
+              <li><a href="#js">Javascript</a></li>
+              <li><a href="#cp">Color Palettes</a></li>
+              <li><a href="#ref">References</a></li>
+              <li><a href="#cs">Customer Support</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="yoo-doc-right">
+          <div class="yoo-doc-body">
+            <div class="yoo-doc-header" id="doc1">
+              <h1 class="yoo-doc-title">Admint Documentation</h1>
+              <div class="yoo-height-b10 yoo-height-lg-b10"></div>
+              <div class="yoo-doc-subtitle">Thank you so much to see our template. We are trying to explain about Admint, this is a part of our premium dashboard template called AdmintPro. If you have any questions about Admint or AdmintPro, please feel free to mail us.</div>
+            </div>
+            <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+            <hr>
+            <div class="yoo-height-b35 yoo-height-lg-b35"></div>
+            <div class="yoo-doc-paragraph">
+              <h2 id="int">Introduction</h2>
+              <div class="yoo-height-b10 yoo-height-lg-b10"></div>
+              <p>Admint is modern and clean Bootstrap 4 based dashboard template. It is built using HTML5, CSS3, jQuery and we are using CSS preprocessor SASS. It is super easy to customize and 100% responsive.</p>
+              <p>It can be used for most type of dashboard and app templates like Analytics, HR, CRM, Crypto, Accounting dashboard or you can create web or desktop apps like Messenger, Live Chat, Project Management, Email or Team Collaboration.</p>
+              <p>Also, you can create a social networking web app with a profile page, newsfeed and messenger.</p>
+            </div>
+            <div class="yoo-doc-paragraph">
+              <div class="yoo-height-b50 yoo-height-lg-b50"></div>
+              <h2>Installation</h2>
+              <div class="yoo-height-b10 yoo-height-lg-b10"></div>
+              <p>Admint can be installed using multiple methods. Pick your favorite method from the list below.</p>
+              <div class="yoo-height-b10 yoo-height-lg-b10"></div>
+              <h5>Via NPM</h5>
+              <pre>npm i admint</pre>
+              <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+              <h5>Via Git</h5>
+              <ul>
+                <li>You can fork <a href="https://github.com/yookits/admint" target="_blank" class="yoo-link">Admint Repository</a>. GitHub fork <a href="https://help.github.com/en/github/getting-started-with-github/fork-a-repo" target="_blank" class="yoo-link">Guidline</a></li>
+                <li>
+                  Clone your machine by using this Command<br>
+                  <pre>git clone https://github.com/yookits/admint.git</pre>
+                </li>
+              </ul>
+            </div>
+            <div class="yoo-doc-paragraph">
+              <div class="yoo-height-b50 yoo-height-lg-b50"></div>
+              <h2 id="fs">Files Structure</h2>
+              <div class="yoo-height-b10 yoo-height-lg-b10"></div>
+              <div class="yoo-doc-box">
+                <ul class="yoo-structure-list">
+                  <li>
+                    <span>Admint</span>
+                    <ul>
+                      <li>
+                        <span>assets</span>
+                        <ul>
+                          <li>css</li>
+                          <li>scss</li>
+                          <li>fonts</li>
+                          <li>img</li>
+                          <li>js</li>
+                        </ul>
+                      </li>
+                      <li>
+                        <span>ui-kits</span> [All UI Kits are added here]
+                        <ul>
+                          <li>according.html</li>
+                        </ul>
+                      </li>
+                      <li>
+                        <span>index.html</span>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="yoo-doc-paragraph">
+              <div class="yoo-height-b55 yoo-height-lg-b40"></div>
+              <h2 id="sty">Stylesheets</h2>
+              <div class="yoo-height-b10 yoo-height-lg-b10"></div>
+              <p>We have own CSS class naming convention that begins with prefix 'yoo-'. Some examples of Admint class names would be: yoo-main-header, yoo-sidebarheader, yoo-footer. For this naming convention, you can integrate unlimited 3rd party plugins and resources without worrying about class naming conflicts. However for Bootstrap and other 3rd party plugins class extending we used their own CSS naming format.</p>
+              <p>We use SASS as a CSS processor. Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.</p>
+              <p>If don't know SASS coding, don't worry you can directly edit CSS file.</p>
+            </div>
+            <div class="yoo-doc-paragraph">
+              <div class="yoo-height-b55 yoo-height-lg-b40"></div>
+              <h2 id="chc">CSS Helper Classes</h2>
+              <div class="yoo-height-b10 yoo-height-lg-b10"></div>
+              <p>We are creating some global class for easy work.</p>
+              <div class="yoo-height-b10 yoo-height-lg-b10"></div>
+              <div class="yoo-card yoo-style1">
+                <div class="yoo-card-body">
+                  <div class="yoo-table yoo-style1 yoo-type1 yoo-equal-width-50 table-responsive">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>Class</th>
+                          <th>Description</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            yoo-margin-[size]<br>
+                            yoo-margin-top-[size]<br>
+                            yoo-margin-bottom-[size]<br>
+                            yoo-margin-left-[size]<br>
+                            yoo-margin-right-[size]
+                          </td>
+                          <td>Margin helper classes where [size] can accept 0 to 15. Example: yoo-margin-0, yoo-margin-top-15</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            yoo-padding-[size]<br>
+                            yoo-padding-top-[size]<br>
+                            yoo-padding-bottom-[size]<br>
+                            yoo-padding-left-[size]<br>
+                            yoo-padding-right-[size]
+                          </td>
+                          <td>Margin helper classes where [size] can accept 0 to 15. Example: yoo-padding-0, yoo-padding-top-15</td>
+                        </tr>
+                        <tr>
+                          <td>yoo-height-b[size] - This is for Larg Screen <br>yoo-height-lg-b[size] - This is for Mobile Screen</td>
+                          <td>Space helper classes where [size] can accept 0, 5, 10, 15, 20. Example: yoo-height-b10, yoo-height-lg-b20</td>
+                        </tr>
+                        <tr>
+                          <td>yoo-font-style-i</td>
+                          <td>Italic Font helper classes.</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            yoo-text-transform-u<br>
+                            yoo-text-transform-l<br>
+                            yoo-text-transform-c
+                          </td>
+                          <td>Text transform helper classes.</td>
+                        </tr>
+                        <tr>
+                          <td>yoo-font-[weight]</td>
+                          <td>Weight helper classes where [weight] can accept light, regular, medium, semi-bold, bold, black. Example: yoo-font-bold</td>
+                        </tr>
+                        <tr>
+                          <td>yoo-radious[size]</td>
+                          <td>Radious helper classes where [size] can accept 1 to 10. Example: yoo-radious1, yoo-radious10</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div><!-- .yoo-table -->
+                </div>
+              </div>
+            </div>
+            <div class="yoo-doc-paragraph">
+              <div class="yoo-height-b55 yoo-height-lg-b40"></div>
+              <h2 id="js">Javascript</h2>
+              <div class="yoo-height-b10 yoo-height-lg-b10"></div>
+              <p>We are using jQeury for JS. All custom jQuery and plugin initialize code are written in main.js (there is a separate file for chart.js initialize) file. And all are function-based. Like if you did not want any JS block you just remove that function.</p>
+              <p>For SVG Maps, we are creating an svg-map folder. Please take your desired file. We also create an <a href="svg-maps.html" class="yoo-link">SVG map</a> preview page.</p>
+              <div class="yoo-height-b10 yoo-height-lg-b10"></div>
+              <div class="yoo-card yoo-style1">
+                <div class="yoo-card-body">
+                  <div class="yoo-table yoo-style1 yoo-type1 yoo-equal-width-50 table-responsive">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>Function</th>
+                          <th>Description</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>mainMenu()</td>
+                          <td>Initialize Main Menu.</td>
+                        </tr>
+                        <tr>
+                          <td>mobileMenu()</td>
+                          <td>Initialize Mobile Menu.</td>
+                        </tr>
+                        <tr>
+                          <td>sideBarHeader()</td>
+                          <td>Initialize Sidebar Menu.</td>
+                        </tr>
+                        <tr>
+                          <td>stickyHeader()</td>
+                          <td>Initialize Sticky Header.</td>
+                        </tr>
+                        <tr>
+                          <td>onePageNav()</td>
+                          <td>Initialize One Page Navigation.</td>
+                        </tr>
+                        <tr>
+                          <td>tabInt()</td>
+                          <td>Initialize Our Custom Tab.</td>
+                        </tr>
+                        <tr>
+                          <td>accordianInt()</td>
+                          <td>Initialize Our Custom Accordion.</td>
+                        </tr>
+                        <tr>
+                          <td>progressBar()</td>
+                          <td>Initialize Progress Bar.</td>
+                        </tr>
+                        <tr>
+                          <td>calendarInt()</td>
+                          <td>Initialize Calender Plugin.</td>
+                        </tr>
+                        <tr>
+                          <td>customSelectInt()</td>
+                          <td>Initialize Custom Selector.</td>
+                        </tr>
+                        <tr>
+                          <td>modalVideoInt()</td>
+                          <td>Initialize Video Modal.</td>
+                        </tr>
+                        <tr>
+                          <td>nicescrollInt()</td>
+                          <td>Initialize Nice Scroll.</td>
+                        </tr>
+                        <tr>
+                          <td>customToggleInt()</td>
+                          <td>Initialize Custom Toggle Button.</td>
+                        </tr>
+                        <tr>
+                          <td>bootstrapInt()</td>
+                          <td>Bootstrap Element Initialize</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div><!-- .yoo-table -->
+                </div>
+              </div>
+            </div>
+            <div class="yoo-doc-paragraph">
+              <div class="yoo-height-b55 yoo-height-lg-b40"></div>
+              <h2 id="ref">References</h2>
+              <div class="yoo-height-b10 yoo-height-lg-b10"></div>
+              <p>We are using some JS and CSS plugins for creating Admint.</p>
+              <div class="yoo-height-b10 yoo-height-lg-b10"></div>
+              <div class="yoo-card yoo-style1">
+                <div class="yoo-card-body">
+                  <div class="yoo-table yoo-style1 yoo-type1 yoo-equal-width-50 table-responsive">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>Plugins/Libray</th>
+                          <th>List</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>jQuery</td>
+                          <td><a href="https://jquery.com/" class="yoo-link">https://jquery.com/</a></td>
+                        </tr>
+                        <tr>
+                          <td>Bootstrap</td>
+                          <td><a href="https://getbootstrap.com/" class="yoo-link">https://getbootstrap.com/</a></td>
+                        </tr>
+                        <tr>
+                          <td>Chart JS</td>
+                          <td><a href="https://www.chartjs.org/" class="yoo-link">https://www.chartjs.org/</a></td>
+                        </tr>
+                        <tr>
+                          <td>jQVMap</td>
+                          <td><a href="http://jqvmap.com" class="yoo-link">http://jqvmap.com</a></td>
+                        </tr>
+                        <tr>
+                          <td>jQuery UI</td>
+                          <td><a href="https://jqueryui.com/" class="yoo-link">https://jqueryui.com/</a></td>
+                        </tr>
+                        <tr>
+                          <td>Moment JS</td>
+                          <td><a href="https://momentjs.com/" class="yoo-link">https://momentjs.com/</a></td>
+                        </tr>
+                        <tr>
+                          <td>Quill</td>
+                          <td><a href="https://quilljs.com/" class="yoo-link">https://quilljs.com/</a></td>
+                        </tr>
+                        <tr>
+                          <td>Swiper Slider</td>
+                          <td><a href="https://swiperjs.com/" class="yoo-link">https://swiperjs.com/</a></td>
+                        </tr>
+                        <tr>
+                          <td>Material Icons</td>
+                          <td><a href="https://material.io/" class="yoo-link">https://material.io/</a></td>
+                        </tr>
+                        <tr>
+                          <td>Fontawesome</td>
+                          <td><a href="https://fontawesome.com/" class="yoo-link">https://fontawesome.com/</a></td>
+                        </tr>
+                        <tr>
+                          <td>Themify Icons</td>
+                          <td><a href="https://themify.me/themify-icons" class="yoo-link">https://themify.me/themify-icons</a></td>
+                        </tr>
+                        <tr>
+                          <td>Line Icons</td>
+                          <td><a href="https://lineicons.com/" class="yoo-link">https://lineicons.com/</a></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div><!-- .yoo-table -->
+                </div>
+              </div>
+            </div>
+            <div class="yoo-doc-paragraph">
+              <div class="yoo-height-b55 yoo-height-lg-b40"></div>
+              <h2 id="cs">Customer Support</h2>
+              <div class="yoo-height-b10 yoo-height-lg-b10"></div>
+              <p>After buying if you are facing any issues or you can not understand any part you can request for support.</p>
+              <p>Our dedicated support team will assist you within Two Business Day.</p>
+              <div class="yoo-height-b20 yoo-height-lg-b20"></div>
+              <p><b>Note: </b>All images you see in the demos use only for demo purposes and is not allowed to be included in the download file.</p>
+            </div>
+            <div class="yoo-height-b100 yoo-height-lg-b60"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="yoo-height-b60 yoo-height-lg-b60"></div>
+
+    {% include 'includes/footer.html' %}
+
+  </div>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}

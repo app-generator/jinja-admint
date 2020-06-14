@@ -1,0 +1,160 @@
+/*========== Start Icon Box  ==========*/
+.yoo-iconbox.yoo-style1,
+.yoo-iconbox.yoo-style2 {
+  .yoo-icon {
+    height: 50px;
+    width: 50px;
+    font-size: 24px;
+  }
+}
+
+.yoo-iconbox.yoo-style1 {
+  .yoo-icon {
+    margin: auto;
+  }
+
+  .yoo-iconbox-sub-heading {
+    line-height: 1.3em;
+  }
+
+  .yoo-iconbox-heading {
+    font-size: 36px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-weight: 400;
+  }
+
+  .yoo-progress-lavel {
+    justify-content: center;
+    padding: 8px 0;
+  }
+}
+
+.yoo-iconbox.yoo-style2 {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .yoo-iconbox-text {
+    text-align: right;
+  }
+
+  .yoo-icon {
+    flex: none;
+    margin-right: 15px;
+  }
+
+  .yoo-iconbox-heading {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+
+  .yoo-iconbox-sub-heading {
+    font-size: 14px;
+  }
+
+  .yoo-progressbar-wrap.yoo-style1 {
+    flex: none;
+    width: 100%;
+    margin-top: 15px;
+  }
+}
+
+.yoo-iconbox.yoo-style3 {
+  padding: 15px 20px;
+
+  .yoo-iconbox-text {
+    position: relative;
+  }
+
+  .yoo-iconbox-heading {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 3px;
+    line-height: 1.2em;
+  }
+
+  .yoo-iconbox-sub-heading {
+    font-size: 14px;
+  }
+
+  .yoo-icon {
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .yoo-progress-lavel {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
+
+.yoo-iconbox.yoo-style4 {
+  display: flex;
+  border-radius: 4px;
+  padding: 30px;
+  align-items: center;
+  position: relative;
+  &:before {
+    content: '';
+    border-radius: 4px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.3) 0%, rgba(255, 244, 240, 0) 100%);
+  }
+
+  &.yoo-color1 {
+    background-color: $accent-color1;
+    box-shadow: 0px 5px 18px 2px rgba($accent-color1, 0.2);
+  }
+  &.yoo-color2 {
+    background-color: $accent-color2;
+    box-shadow: 0px 5px 18px 2px rgba($accent-color2, 0.2);
+  }
+  &.yoo-color3 {
+    background-color: $accent-color6;
+    box-shadow: 0px 5px 18px 2px rgba($accent-color6, 0.2);
+  }
+  &.yoo-color4 {
+    background-color: $accent-color7;
+    box-shadow: 0px 5px 18px 2px rgba($accent-color7, 0.2);
+  }
+
+  .yoo-icon {
+    height: 70px;
+    width: 70px;
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 30px;
+    margin-right: 15px;
+    border-radius: 4px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .yoo-iconbox-text {
+    position: relative;
+    z-index: 1;
+  }
+
+  .yoo-iconbox-heading {
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 0;
+  }
+
+  .yoo-iconbox-sub-heading {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
+/*========== End Icon Box  ==========*/

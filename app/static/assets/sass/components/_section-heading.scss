@@ -1,0 +1,20 @@
+/*========== Start Section Heading  ==========*/
+.yoo-sectin-heading.yoo-style1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  .yoo-section-title {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 7px;
+    margin-top: -3px;
+  }
+
+  .yoo-section-sub-title {
+    font-size: 16px;
+    margin-bottom: -3px;
+  }
+}
+/*========== End Section Heading  ==========*/

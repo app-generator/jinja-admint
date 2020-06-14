@@ -1,0 +1,248 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} Pagination {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+  <div class="yoo-content yoo-style1">
+    <div class="yoo-padd-lr-30 yoo-uikits-heading">
+      <h2 class="yoo-uikits-title">Pagination</h2>
+      <ul class="yoo-breadcamb yoo-style1 yoo-mp0">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">UI Kits</a></li>
+        <li>Pagination</li>
+      </ul>
+    </div>
+    <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="yoo-card yoo-style1">
+            <div class="yoo-card-heading">
+              <div class="yoo-card-heading-left">
+                <h2 class="yoo-card-title">Basic Pagination</h2>
+              </div>
+            </div>
+            <div class="yoo-card-body">
+              <div class="yoo-padd-lr-30 yoo-alert-wrap">
+                <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination">
+                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                  </ul>
+                </nav>
+                <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+              </div>
+            </div>
+          </div>
+        </div><!-- .col -->
+        <div class="col-lg-6">
+          <div class="yoo-card yoo-style1">
+            <div class="yoo-card-heading">
+              <div class="yoo-card-heading-left">
+                <h2 class="yoo-card-title">Centered Pagination</h2>
+              </div>
+            </div>
+            <div class="yoo-card-body">
+              <div class="yoo-padd-lr-30 yoo-alert-wrap">
+                <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                      <a class="page-link" href="#">Previous</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                      <a class="page-link" href="#">Next</a>
+                    </li>
+                  </ul>
+                </nav>
+                <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+              </div>
+            </div>
+          </div>
+        </div><!-- .col -->
+        <div class="col-lg-6">
+          <div class="yoo-card yoo-style1">
+            <div class="yoo-card-heading">
+              <div class="yoo-card-heading-left">
+                <h2 class="yoo-card-title">Right Pagination</h2>
+              </div>
+            </div>
+            <div class="yoo-card-body">
+              <div class="yoo-padd-lr-30 yoo-alert-wrap">
+                <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination justify-content-end">
+                    <li class="page-item disabled">
+                      <a class="page-link" href="#">Previous</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                      <a class="page-link" href="#">Next</a>
+                    </li>
+                  </ul>
+                </nav>
+                <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+              </div>
+            </div>
+          </div>
+        </div><!-- .col -->
+        <div class="col-lg-6">
+          <div class="yoo-card yoo-style1">
+            <div class="yoo-card-heading">
+              <div class="yoo-card-heading-left">
+                <h2 class="yoo-card-title">Arrow Pagination With Number</h2>
+              </div>
+            </div>
+            <div class="yoo-card-body">
+              <div class="yoo-padd-lr-30 yoo-alert-wrap">
+                <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination">
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Previous">
+                        <i class="material-icons">keyboard_arrow_left</i>
+                      </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Next">
+                        <i class="material-icons">keyboard_arrow_right</i>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+                <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+              </div>
+            </div>
+          </div>
+        </div><!-- .col -->
+        <div class="col-lg-6">
+          <div class="yoo-card yoo-style1">
+            <div class="yoo-card-heading">
+              <div class="yoo-card-heading-left">
+                <h2 class="yoo-card-title">Arrow Pagination</h2>
+              </div>
+            </div>
+            <div class="yoo-card-body">
+              <div class="yoo-padd-lr-30 yoo-alert-wrap">
+                <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+                <div class="yoo-navigation yoo-style1">
+                  <a href="#" class="yoo-prev"><i class="material-icons-outlined">keyboard_arrow_left</i></a>
+                  <a href="#" class="yoo-next"><i class="material-icons-outlined">keyboard_arrow_right</i></a>
+                </div>
+                <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+              </div>
+            </div>
+          </div>
+        </div><!-- .col -->
+        <div class="col-lg-6">
+          <div class="yoo-card yoo-style1">
+            <div class="yoo-card-heading">
+              <div class="yoo-card-heading-left">
+                <h2 class="yoo-card-title">Pagination With Active Button</h2>
+              </div>
+            </div>
+            <div class="yoo-card-body">
+              <div class="yoo-padd-lr-30 yoo-alert-wrap">
+                <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+                <nav>
+                  <ul class="pagination">
+                    <li class="page-item disabled">
+                      <a class="page-link" href="#">Previous</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item active" aria-current="page">
+                      <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                      <a class="page-link" href="#">Next</a>
+                    </li>
+                  </ul>
+                </nav>
+                <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+              </div>
+            </div>
+          </div>
+        </div><!-- .col -->
+        <div class="col-lg-6">
+          <div class="yoo-card yoo-style1">
+            <div class="yoo-card-heading">
+              <div class="yoo-card-heading-left">
+                <h2 class="yoo-card-title">Large Pagination</h2>
+              </div>
+            </div>
+            <div class="yoo-card-body">
+              <div class="yoo-padd-lr-30 yoo-alert-wrap">
+                <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+                <nav>
+                  <ul class="pagination pagination-lg">
+                    <li class="page-item active">
+                      <span class="page-link">
+                        1
+                        <span class="sr-only">(current)</span>
+                      </span>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  </ul>
+                </nav>
+                <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+              </div>
+            </div>
+          </div>
+        </div><!-- .col -->
+        <div class="col-lg-6">
+          <div class="yoo-card yoo-style1">
+            <div class="yoo-card-heading">
+              <div class="yoo-card-heading-left">
+                <h2 class="yoo-card-title">Small Pagination</h2>
+              </div>
+            </div>
+            <div class="yoo-card-body">
+              <div class="yoo-padd-lr-30 yoo-alert-wrap">
+                <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+                <nav>
+                  <ul class="pagination pagination-sm">
+                    <li class="page-item active">
+                      <span class="page-link">
+                        1
+                        <span class="sr-only">(current)</span>
+                      </span>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  </ul>
+                </nav>
+                <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+              </div>
+            </div>
+          </div>
+        </div><!-- .col -->
+      </div>
+    </div>
+    <div class="yoo-height-b60 yoo-height-lg-b60"></div>
+
+    {% include 'includes/footer.html' %}
+
+  </div>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}

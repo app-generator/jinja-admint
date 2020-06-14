@@ -1,0 +1,96 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} UI Breadcrumb {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+  <div class="yoo-content yoo-style1">
+    <div class="yoo-padd-lr-30 yoo-uikits-heading">
+      <h2 class="yoo-uikits-title">Breadcrumb</h2>
+      <ul class="yoo-breadcamb yoo-style1 yoo-mp0">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">UI Kits</a></li>
+        <li>Breadcrumb</li>
+      </ul>
+    </div>
+    <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="yoo-card yoo-style1 yoo-height-100p">
+            <div class="yoo-card-heading">
+              <div class="yoo-card-heading-left">
+                <h2 class="yoo-card-title">Breadcrumb Style 1</h2>
+              </div>
+            </div>
+            <div class="yoo-card-body">
+              <div class="yoo-padd-lr-30 yoo-alert-wrap">
+                <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+                <ul class="yoo-breadcamb yoo-style1 yoo-mp0">
+                  <li>Home</li>
+                </ul>
+                <div class="yoo-height-b10 yoo-height-lg-b10"></div>
+                <ul class="yoo-breadcamb yoo-style1 yoo-mp0">
+                  <li><a href="#">Home</a></li>
+                  <li>Library</li>
+                </ul>
+                <div class="yoo-height-b10 yoo-height-lg-b10"></div>
+                <ul class="yoo-breadcamb yoo-style1 yoo-mp0">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Library</a></li>
+                  <li>Buttons</li>
+                </ul>
+                <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+              </div>
+            </div>
+          </div>
+        </div><!-- .col -->
+        <div class="col-lg-6">
+          <div class="yoo-card yoo-style1 yoo-height-100p">
+            <div class="yoo-card-heading">
+              <div class="yoo-card-heading-left">
+                <h2 class="yoo-card-title">Breadcrumb Style 2</h2>
+              </div>
+            </div>
+            <div class="yoo-card-body">
+              <div class="yoo-padd-lr-30 yoo-alert-wrap">
+                <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+                <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item active" aria-current="page">Home</li>
+                  </ol>
+                </nav>
+                <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Library</li>
+                  </ol>
+                </nav>
+                <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Library</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Data</li>
+                  </ol>
+                </nav>
+                <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+              </div>
+            </div>
+          </div>
+        </div><!-- .col -->
+      </div>
+    </div>
+    <div class="yoo-height-b60 yoo-height-lg-b60"></div>
+    <div class="yoo-height-b40 yoo-height-lg-b0"></div>
+
+    {% include 'includes/footer.html' %}
+    
+  </div>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}

@@ -1,0 +1,121 @@
+/*========== Start Post  ==========*/
+.yoo-post.yoo-style1 {
+  .yoo-post-text {
+    font-size: 21px;
+    line-height: 1.6em;
+    color: $base-color1
+  }
+}
+
+.yoo-post.yoo-style2 {
+  .yoo-post-text {
+    font-size: 14px;
+    line-height: 1.6em;
+    color: $base-color1
+  }
+}
+
+.yoo-profile-post-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .yoo-post-comments,
+  .yoo-post-view {
+    font-size: 14px;
+  }
+}
+
+.yoo-post.yoo-style3 {
+  .yoo-post-user {
+    display: flex;
+    align-items: center;
+  }
+
+  .yoo-post-user-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+  }
+
+  .yoo-post-user-name {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+
+  .yoo-post-user-email {
+    font-size: 13px;
+    color: $base-color3;
+    display: block;
+    line-height: 14px;
+  }
+
+  .yoo-post-heading {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px;
+    padding-bottom: 27px;
+    background: linear-gradient(transparent, rgba(0, 0, 0, .8));
+  }
+
+  .yoo-post-title {
+    margin: 0;
+    font-size: 21px;
+    color: #fff;
+    a {
+      color: inherit;
+      &:hover {
+        color: rgba(255, 255, 255, 0.8);
+      }
+    }
+  }
+
+  .yoo-post-thumb {
+    position: relative;
+    display: block;
+    img {
+      width: 100%;
+      border-radius: 4px 4px 0 0;
+    }
+    img.yoo-radious4 {
+      border-radius: 4px;
+    }
+  }
+
+  .yoo-post-text {
+    font-size: 14px;
+    line-height: 1.6em;
+  }
+}
+
+.yoo-post-label.yoo-style1 {
+  display: flex;
+  flex-wrap: wrap;
+
+  li {
+    font-size: 12px;
+    color: $base-color3;
+    line-height: 1.4em;
+
+    &:not(:last-child) {
+      margin-right: 6px;
+    }
+
+    &:not(:last-child):after {
+      content: "•";
+      font-size: 12px;
+      margin-left: 6px;
+    }
+
+    i {
+      display: flex;
+      font-size: 16px;
+    }
+  }
+}
+/*========== End Post  ==========*/

@@ -1,0 +1,862 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} UI Tabs {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+  <div class="yoo-content yoo-style1">
+    <div class="yoo-padd-lr-30 yoo-uikits-heading">
+      <h2 class="yoo-uikits-title">Tabs</h2>
+      <ul class="yoo-breadcamb yoo-style1 yoo-mp0">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">UI Kits</a></li>
+        <li>Tabs</li>
+      </ul>
+    </div>
+    <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="yoo-card yoo-style1">
+            <div class="yoo-card-heading">
+              <div class="yoo-card-heading-left">
+                <h2 class="yoo-card-title">Tabs Style 1</h2>
+              </div>
+            </div>
+            <div class="yoo-card-body">
+              <div class="yoo-fade-tabs yoo-tabs yoo-style1">
+                <ul class="yoo-tab-links">
+                  <li class="yoo-active"><a href="#tab1">Profile</a></li>
+                  <li><a href="#tab2">Details</a></li>
+                  <li><a href="#tab3">Settings</a></li>
+                  <li><a href="#tab4">Payment</a></li>
+                </ul>
+                <div class="yoo-tab-content">
+                  <div id="tab1" class="yoo-tab yoo-active">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                  <div id="tab2" class="yoo-tab">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                  <div id="tab3" class="yoo-tab">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                  <div id="tab4" class="yoo-tab">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- .col -->
+        <div class="col-lg-6">
+          <div class="yoo-card yoo-style1">
+            <div class="yoo-card-heading">
+              <div class="yoo-card-heading-left">
+                <h2 class="yoo-card-title">Tabs Style 2</h2>
+              </div>
+            </div>
+            <div class="yoo-card-body yoo-padd-lr-30">
+              <div class="yoo-fade-tabs yoo-tabs yoo-style3">
+                <ul class="yoo-tab-links">
+                  <li class="yoo-active"><a href="#tab21">Profile</a></li>
+                  <li><a href="#tab22">Details</a></li>
+                  <li><a href="#tab23">Settings</a></li>
+                  <li><a href="#tab24">Payment</a></li>
+                </ul>
+                <div class="yoo-tab-content">
+                  <div id="tab21" class="yoo-tab yoo-active">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                  <div id="tab22" class="yoo-tab">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                  <div id="tab23" class="yoo-tab">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                  <div id="tab24" class="yoo-tab">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- .col -->
+        <div class="col-lg-6">
+          <div class="yoo-card yoo-style1 yoo-height-100p">
+            <div class="yoo-card-heading">
+              <div class="yoo-card-heading-left">
+                <h2 class="yoo-card-title">Tabs Style 3</h2>
+              </div>
+            </div>
+            <div class="yoo-card-body">
+              <div class="yoo-fade-tabs yoo-tabs yoo-style5">
+                <ul class="yoo-tab-links">
+                  <li class="yoo-active"><a href="#tab31">Profile</a></li>
+                  <li><a href="#tab32">Details</a></li>
+                  <li><a href="#tab33">Settings</a></li>
+                  <li><a href="#tab34">Payment</a></li>
+                </ul>
+                <div class="yoo-tab-content">
+                  <div id="tab31" class="yoo-tab yoo-active">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                  <div id="tab32" class="yoo-tab">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                  <div id="tab33" class="yoo-tab">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                  <div id="tab34" class="yoo-tab">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- .col -->
+        <div class="col-lg-6">
+          <div class="yoo-card yoo-style1">
+            <div class="yoo-card-heading">
+              <div class="yoo-card-heading-left">
+                <h2 class="yoo-card-title">Tabs Style 4</h2>
+              </div>
+            </div>
+            <div class="yoo-card-body">
+              <div class="yoo-fade-tabs yoo-tabs yoo-style3">
+                <div class="yoo-tab-links-wrap">
+                  <ul class="yoo-tab-links">
+                    <li class="yoo-active">
+                      <a href="#tab51">
+                        <span class="yoo-tab-icon"><i class="material-icons-outlined">account_circle</i></span>
+                        <span class="yoo-tab-title">Profile</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#tab52">
+                        <span class="yoo-tab-icon"><i class="material-icons-outlined">layers</i></span>
+                        <span class="yoo-tab-title">Details</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#tab53">
+                        <span class="yoo-tab-icon"><i class="material-icons-outlined">settings</i></span>
+                        <span class="yoo-tab-title">Settings</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#tab54">
+                        <span class="yoo-tab-icon"><i class="material-icons-outlined">credit_card</i></span>
+                        <span class="yoo-tab-title">Payment</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="yoo-tab-content">
+                  <div id="tab51" class="yoo-tab yoo-active">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                  <div id="tab52" class="yoo-tab">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                  <div id="tab53" class="yoo-tab">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                  <div id="tab54" class="yoo-tab">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- .col -->
+        <div class="col-lg-6">
+          <div class="yoo-card yoo-style1 yoo-height-100p">
+            <div class="yoo-card-heading">
+              <div class="yoo-card-heading-left">
+                <h2 class="yoo-card-title">Tabs Style 5</h2>
+              </div>
+            </div>
+            <div class="yoo-card-body">
+              <div class="yoo-fade-tabs yoo-tabs yoo-style3 yoo-type1">
+                <div class="yoo-tab-links-wrap">
+                  <ul class="yoo-tab-links">
+                    <li class="yoo-active">
+                      <a href="#tab61">
+                        <span class="yoo-tab-icon"><i class="material-icons-outlined">account_circle</i></span>
+                        <span class="yoo-tab-title">Profile</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#tab62">
+                        <span class="yoo-tab-icon"><i class="material-icons-outlined">layers</i></span>
+                        <span class="yoo-tab-title">Details</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#tab63">
+                        <span class="yoo-tab-icon"><i class="material-icons-outlined">settings</i></span>
+                        <span class="yoo-tab-title">Settings</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#tab64">
+                        <span class="yoo-tab-icon"><i class="material-icons-outlined">credit_card</i></span>
+                        <span class="yoo-tab-title">Payment</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="yoo-tab-content">
+                  <div id="tab61" class="yoo-tab yoo-active">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                  <div id="tab62" class="yoo-tab">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                  <div id="tab63" class="yoo-tab">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                  <div id="tab64" class="yoo-tab">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- .col -->
+        <div class="col-lg-6">
+          <div class="yoo-card yoo-style1">
+            <div class="yoo-card-heading">
+              <div class="yoo-card-heading-left">
+                <h2 class="yoo-card-title">Tabs Style 6</h2>
+              </div>
+            </div>
+            <div class="yoo-card-body">
+              <div class="yoo-fade-tabs yoo-tabs yoo-style4">
+                <div class="yoo-tab-links-wrap">
+                  <div class="yoo-tab-links-wrap-in">
+                    <ul class="yoo-tab-links">
+                      <li class="yoo-active">
+                        <a href="#tab71">
+                          <span class="yoo-tab-number-wrap"><span class="yoo-tab-number">1</span></span>
+                          <span class="yoo-tab-title">Profile</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#tab72">
+                          <span class="yoo-tab-number-wrap"><span class="yoo-tab-number">2</span></span>
+                          <span class="yoo-tab-title">Details</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#tab73">
+                          <span class="yoo-tab-number-wrap"><span class="yoo-tab-number">3</span></span>
+                          <span class="yoo-tab-title">Settings</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#tab74">
+                          <span class="yoo-tab-number-wrap"><span class="yoo-tab-number">4</span></span>
+                          <span class="yoo-tab-title">Payment</span>
+                        </a>
+                      </li>
+                    </ul>
+                    <div class="yoo-tab-bar"></div>
+                  </div>
+                </div>
+                <div class="yoo-tab-content">
+                  <div id="tab71" class="yoo-tab yoo-active">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                  <div id="tab72" class="yoo-tab">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                  <div id="tab73" class="yoo-tab">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                  <div id="tab74" class="yoo-tab">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- .col -->
+        <div class="col-lg-6">
+          <div class="yoo-card yoo-style1">
+            <div class="yoo-card-heading">
+              <div class="yoo-card-heading-left">
+                <h2 class="yoo-card-title">Tabs Style 7</h2>
+              </div>
+            </div>
+            <div class="yoo-card-body">
+              <div class="yoo-fade-tabs yoo-tabs yoo-style4 yoo-type1">
+                <div class="yoo-tab-links-wrap">
+                  <div class="yoo-tab-links-wrap-in">
+                    <ul class="yoo-tab-links">
+                      <li class="yoo-active">
+                        <a href="#tab81">
+                          <span class="yoo-tab-number-wrap"><span class="yoo-tab-number">1</span></span>
+                          <span class="yoo-tab-title">Profile</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#tab82">
+                          <span class="yoo-tab-number-wrap"><span class="yoo-tab-number">2</span></span>
+                          <span class="yoo-tab-title">Details</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#tab83">
+                          <span class="yoo-tab-number-wrap"><span class="yoo-tab-number">3</span></span>
+                          <span class="yoo-tab-title">Settings</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#tab84">
+                          <span class="yoo-tab-number-wrap"><span class="yoo-tab-number">4</span></span>
+                          <span class="yoo-tab-title">Payment</span>
+                        </a>
+                      </li>
+                    </ul>
+                    <div class="yoo-tab-bar"></div>
+                  </div>
+                </div>
+                <div class="yoo-tab-content">
+                  <div id="tab81" class="yoo-tab yoo-active">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                  <div id="tab82" class="yoo-tab">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                  <div id="tab83" class="yoo-tab">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                  <div id="tab84" class="yoo-tab">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- .col -->
+        <div class="col-lg-6">
+          <div class="yoo-card yoo-style1">
+            <div class="yoo-card-heading">
+              <div class="yoo-card-heading-left">
+                <h2 class="yoo-card-title">Tabs Style 8</h2>
+              </div>
+            </div>
+            <div class="yoo-card-body">
+              <div class="yoo-fade-tabs yoo-tabs yoo-style4 yoo-type2">
+                <div class="yoo-tab-links-wrap">
+                  <div class="yoo-tab-links-wrap-in">
+                    <ul class="yoo-tab-links">
+                      <li class="yoo-active">
+                        <a href="#tab91">
+                          <span class="yoo-tab-number-wrap"><span class="yoo-tab-number">1</span></span>
+                          <span class="yoo-tab-title">Profile</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#tab92">
+                          <span class="yoo-tab-number-wrap"><span class="yoo-tab-number">2</span></span>
+                          <span class="yoo-tab-title">Details</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#tab93">
+                          <span class="yoo-tab-number-wrap"><span class="yoo-tab-number">3</span></span>
+                          <span class="yoo-tab-title">Settings</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#tab94">
+                          <span class="yoo-tab-number-wrap"><span class="yoo-tab-number">4</span></span>
+                          <span class="yoo-tab-title">Payment</span>
+                        </a>
+                      </li>
+                    </ul>
+                    <div class="yoo-tab-bar"></div>
+                  </div>
+                </div>
+                <div class="yoo-tab-content">
+                  <div id="tab91" class="yoo-tab yoo-active">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                  <div id="tab92" class="yoo-tab">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                  <div id="tab93" class="yoo-tab">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                  <div id="tab94" class="yoo-tab">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- .col -->
+        <div class="col-lg-6">
+          <div class="yoo-card yoo-style1">
+            <div class="yoo-card-heading">
+              <div class="yoo-card-heading-left">
+                <h2 class="yoo-card-title">Tabs Style 9</h2>
+              </div>
+            </div>
+            <div class="yoo-card-body">
+              <div class="yoo-fade-tabs yoo-tabs yoo-style4 yoo-type3">
+                <div class="yoo-tab-links-wrap">
+                  <div class="yoo-tab-links-wrap-in">
+                    <ul class="yoo-tab-links">
+                      <li class="yoo-active">
+                        <a href="#tab101">
+                          <span class="yoo-tab-number-wrap"><span class="yoo-tab-number">1</span></span>
+                          <span class="yoo-tab-title">Profile</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#tab102">
+                          <span class="yoo-tab-number-wrap"><span class="yoo-tab-number">2</span></span>
+                          <span class="yoo-tab-title">Details</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#tab103">
+                          <span class="yoo-tab-number-wrap"><span class="yoo-tab-number">3</span></span>
+                          <span class="yoo-tab-title">Settings</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#tab104">
+                          <span class="yoo-tab-number-wrap"><span class="yoo-tab-number">4</span></span>
+                          <span class="yoo-tab-title">Payment</span>
+                        </a>
+                      </li>
+                    </ul>
+                    <div class="yoo-tab-bar"></div>
+                  </div>
+                </div>
+                <div class="yoo-tab-content">
+                  <div id="tab101" class="yoo-tab yoo-active">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                  <div id="tab102" class="yoo-tab">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                  <div id="tab103" class="yoo-tab">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                  <div id="tab104" class="yoo-tab">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- .col -->
+        <div class="col-lg-6">
+          <div class="yoo-card yoo-style1">
+            <div class="yoo-card-heading">
+              <div class="yoo-card-heading-left">
+                <h2 class="yoo-card-title">Tabs Style 10</h2>
+              </div>
+            </div>
+            <div class="yoo-card-body">
+              <div class="yoo-fade-tabs yoo-tabs yoo-style4 yoo-type4">
+                <div class="yoo-tab-links-wrap">
+                  <div class="yoo-tab-links-wrap-in">
+                    <ul class="yoo-tab-links">
+                      <li class="yoo-active">
+                        <a href="#tab111">
+                          <span class="yoo-tab-number-wrap"><span class="yoo-tab-number">1</span></span>
+                          <span class="yoo-tab-title">Profile</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#tab112">
+                          <span class="yoo-tab-number-wrap"><span class="yoo-tab-number">2</span></span>
+                          <span class="yoo-tab-title">Details</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#tab113">
+                          <span class="yoo-tab-number-wrap"><span class="yoo-tab-number">3</span></span>
+                          <span class="yoo-tab-title">Settings</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#tab114">
+                          <span class="yoo-tab-number-wrap"><span class="yoo-tab-number">4</span></span>
+                          <span class="yoo-tab-title">Payment</span>
+                        </a>
+                      </li>
+                    </ul>
+                    <div class="yoo-tab-bar"></div>
+                  </div>
+                </div>
+                <div class="yoo-tab-content">
+                  <div id="tab111" class="yoo-tab yoo-active">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                  <div id="tab112" class="yoo-tab">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                  <div id="tab113" class="yoo-tab">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                  <div id="tab114" class="yoo-tab">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- .col -->
+        <div class="col-lg-6">
+          <div class="yoo-card yoo-style1">
+            <div class="yoo-card-heading">
+              <div class="yoo-card-heading-left">
+                <h2 class="yoo-card-title">Tabs Style 11</h2>
+              </div>
+            </div>
+            <div class="yoo-card-body">
+              <div class="yoo-fade-tabs yoo-tabs yoo-style4 yoo-type4">
+                <div class="yoo-tab-links-wrap">
+                  <div class="yoo-tab-links-wrap-in">
+                    <ul class="yoo-tab-links">
+                      <li class="yoo-active">
+                        <a href="#tab121">
+                          <span class="yoo-tab-title">Profile</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#tab122">
+                          <span class="yoo-tab-title">Details</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#tab123">
+                          <span class="yoo-tab-title">Settings</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#tab124">
+                          <span class="yoo-tab-title">Payment</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="yoo-tab-content">
+                  <div id="tab121" class="yoo-tab yoo-active">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                  <div id="tab122" class="yoo-tab">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                  <div id="tab123" class="yoo-tab">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                  <div id="tab124" class="yoo-tab">
+                    <div class="yoo-height-b15 yoo-height-lg-b15"></div>
+                    <div class="yoo-tab-body-text yoo-padd-lr-30">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="yoo-height-b25 yoo-height-lg-b25"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- .col -->
+        <div class="col-lg-6">
+          <div class="yoo-card yoo-style1">
+            <div class="yoo-card-heading">
+              <div class="yoo-card-heading-left">
+                <h2 class="yoo-card-title">Tabs Style 12</h2>
+              </div>
+            </div>
+            <div class="yoo-card-body">
+              <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+              <div class="yoo-fade-tabs yoo-tabs yoo-style2 yoo-type1">
+                <ul class="yoo-tab-links">
+                  <li class="yoo-active"><a href="#tab41"><i class="material-icons-outlined">account_circle</i>Profile</a></li>
+                  <li><a href="#tab42"><i class="material-icons-outlined">layers</i>Details</a></li>
+                  <li><a href="#tab43"><i class="material-icons-outlined">settings</i>Settings</a></li>
+                  <li><a href="#tab44"><i class="material-icons-outlined">credit_card</i>Payment</a></li>
+                </ul>
+                <div class="yoo-tab-content">
+                  <div id="tab41" class="yoo-tab yoo-active">
+                    <div class="yoo-tab-body-text">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                  </div>
+                  <div id="tab42" class="yoo-tab">
+                    <div class="yoo-tab-body-text">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                  </div>
+                  <div id="tab43" class="yoo-tab">
+                    <div class="yoo-height-b15"></div>
+                    <div class="yoo-tab-body-text">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                  </div>
+                  <div id="tab44" class="yoo-tab">
+                    <div class="yoo-tab-body-text">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="yoo-height-b30 yoo-height-lg-b30"></div>
+            </div>
+          </div>
+        </div><!-- .col -->
+
+      </div>
+    </div>
+    <div class="yoo-height-b60 yoo-height-lg-b60"></div>
+
+    {% include 'includes/footer.html' %}
+
+  </div>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}
