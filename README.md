@@ -4,7 +4,7 @@
 
 - UI Kit: **AdminT Dashboard** (Free Version) by **YooKits**
 - Render Engine: Flask / [Jinja2](https://jinja.palletsprojects.com/)
-- **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**
+- **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** (preserve the footer credit to YooKits)
 - Free support via **Github** issues tracker
 - Paid 24/7 Live Support via [Discord](https://discord.gg/fZC6hup).
 
