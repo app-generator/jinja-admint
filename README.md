@@ -1,4 +1,4 @@
-# [Jinja2 Template - AdminT (Free Version)](https://theme-jinja2-admint.appseed.us/)
+# [Jinja Template - AdminT](https://theme-jinja2-admint.appseed.us/)
 
 > Template Theme provided by [AppSeed](https://appseed.us) - Features:
 
@@ -26,7 +26,7 @@ You can create applications of any kind with it. We carefully crafted every comp
 
 <br />
 
-![Jinja2 Theme - AdminT (Free Version) - Template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/theme-jinja2-admint/master/media/theme-jinja2-admint-screen.png)
+![Jinja Template - AdminT.](https://raw.githubusercontent.com/app-generator/theme-jinja2-admint/master/media/theme-jinja2-admint-screen.png)
 
 <br />
 
@@ -187,4 +187,4 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 <br />
 
 ---
-[Jinja2 Template - AdminT (Free Version)](https://theme-jinja2-admint.appseed.us/) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
+[Jinja Template - AdminT](https://theme-jinja2-admint.appseed.us/) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
