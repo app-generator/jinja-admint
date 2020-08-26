@@ -1,4 +1,4 @@
-# [Jinja Template - AdminT](https://theme-jinja2-admint.appseed.us/)
+# [Jinja Template](https://github.com/app-generator/jinja-template) - AdminT
 
 > Template Theme provided by [AppSeed](https://appseed.us) - Features:
 
@@ -15,15 +15,10 @@
 
 <br />
 
-## UI Kit - [AdminT (Free Version)](https://yookits.com/product/admint-bootstrap-admin-template/?ref=appseed)
+## UI Kit - AdminT (Free Version)
 
 *Vendor Notes* - **[AdminT](https://yookits.com/product/admint-bootstrap-admin-template/?ref=appseed)** is the swiss army knife of the dashboard templates. 
 You can create applications of any kind with it. We carefully crafted every component based on a cohesive design system. Your app will look pro with Admint magic. It’s completely free & open-source. Grab it today and build beautiful apps.
-
-> Links
-
-- [AdminT (Free Version)](https://yookits.com/product/admint-bootstrap-admin-template/?ref=appseed) - product page
-- [AdminT](https://github.com/yookits/admint/) - Html version source code (Github)
 
 <br />
 
@@ -188,4 +183,4 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 <br />
 
 ---
-[Jinja Template - AdminT](https://theme-jinja2-admint.appseed.us/) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
+[Jinja Template](https://github.com/app-generator/jinja-template) AdminT - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
